@@ -11,3 +11,4 @@ The writeTag function requests the NfcTech.Ndef technology and displays an alert
 Finally, the component renders a text input for the user to enter the data to write to the tag, and a button that calls the writeTag function when pressed. If no tag is detected, it logs a warning to the console.
 ## Samsung App
 NFC совместимые NTAG21x
+https://www.wakdev.com/en/more/wiki/apps/nfc-chips-for-nfc-tools.html
