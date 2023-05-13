@@ -9,3 +9,5 @@ This component uses the NfcManager module to interact with the NFC API. When the
 The component also registers a handleTagDiscovery function as a listener for the NfcEvents.DiscoverTag event. This function is called when an NFC tag is detected, and it sets the tag state variable with the tag object.
 The writeTag function requests the NfcTech.Ndef technology and displays an alert message to the user. It then encodes the text as bytes and creates an NDEF message containing a text record with the bytes. Finally, it writes the message to the tag using NfcManager.ndef.write(). If the write is successful, it clears the tag and text state variables.
 Finally, the component renders a text input for the user to enter the data to write to the tag, and a button that calls the writeTag function when pressed. If no tag is detected, it logs a warning to the console.
+## Samsung App
+NFC совместимые NTAG21x
